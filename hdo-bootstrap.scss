@@ -662,4 +662,8 @@ $pre-scrollable-max-height:   340px !default;
   background-image: $hdo-logo;
 }
 
+.hdo-pattern {
+  background-image: $hdo-five-percent-pattern;
+}
+
 @import "~bootstrap/scss/bootstrap";
