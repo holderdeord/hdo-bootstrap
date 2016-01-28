@@ -11,6 +11,8 @@ $hdo-steel-blue-normal: #858fa3;
 $hdo-steel-blue-dark: #606b82;
 $hdo-steel-blue-extra-dark: #455068;
 
+$hdo-outline-color: darken($hdo-highlight-color, 5%);
+
 $gray-dark:                 #333 !default;
 $gray:                      #55595c !default;
 $gray-light:                #818a91 !default;
@@ -285,8 +287,8 @@ $input-border-radius:            $border-radius !default;
 $input-border-radius-lg:         $border-radius-lg !default;
 $input-border-radius-sm:         $border-radius-sm !default;
 
-$input-border-focus:             darken($hdo-highlight-color, 5%) !default;
-$input-box-shadow-focus:         darken($hdo-highlight-color, 5%) !default;
+$input-border-focus:             $hdo-outline-color !default;
+$input-box-shadow-focus:         $hdo-outline-color !default;
 
 $input-color-placeholder:        #999 !default;
 
@@ -675,6 +677,10 @@ $pre-scrollable-max-height:   340px !default;
 
 .custom-select {
   &:focus {
-    border-color: darken($hdo-highlight-color, 5%);
+    border-color: $hdo-outline-color;
   }
+}
+
+a, input, button, nav {
+  outline-color: $hdo-outline-color !important;
 }
