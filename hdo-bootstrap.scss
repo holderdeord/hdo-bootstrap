@@ -11,7 +11,7 @@ $hdo-steel-blue-normal: #858fa3;
 $hdo-steel-blue-dark: #606b82;
 $hdo-steel-blue-extra-dark: #455068;
 
-$hdo-outline-color: darken($hdo-highlight-color, 5%);
+$hdo-outline-color: $hdo-steel-blue-extra-dark;
 
 $gray-dark:                 #333 !default;
 $gray:                      #55595c !default;
