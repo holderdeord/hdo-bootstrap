@@ -2,6 +2,7 @@
   "name": "hdo-bootstrap",
   "version": "1.0.0",
   "description": "HDO version of Bootstrap 4.",
+  "main": "hdo-bootstrap.scss",
   "scripts": {
     "dev": "webpack --watch",
     "build": "./node_modules/.bin/webpack --bail --optimize-minimize --optimize-occurence-order --optimize-dedupe",
