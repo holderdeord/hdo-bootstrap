@@ -1,0 +1,9 @@
+.custom-select {
+  &:focus {
+    border-color: $hdo-outline-color;
+  }
+}
+
+a, input, button, nav {
+  outline-color: $hdo-outline-color !important;
+}
