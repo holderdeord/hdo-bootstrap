@@ -368,7 +368,7 @@ $navbar-dark-hover-color:           rgba(255,255,255,.75) !default;
 $navbar-dark-active-color:          rgba(255,255,255,1) !default;
 $navbar-dark-disabled-color:        rgba(255,255,255,.25) !default;
 
-$navbar-light-color:                rgba(0,0,0,.3) !default;
+$navbar-light-color:                rgb(97, 97, 97) !default; // to make it more accessible
 $navbar-light-hover-color:          rgba(0,0,0,.6) !default;
 $navbar-light-active-color:         rgba(0,0,0,.8) !default;
 $navbar-light-disabled-color:       rgba(0,0,0,.15) !default;
